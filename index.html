@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign UP Form </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="form_container">
+        <script src="scripts.js"></script>
+
+    <h1>Signup Form</h1>
+    <br>
+    <form id="signupForm" onsubmit="submitForm(event)">
+
+        
+        <label for="firstName">First , Last Name* :</label>
+        <input type="text" id="firstName" required>
+
+    
+        <input type="text" id="lastName" required>
+        <br>
+
+        <label for="organization">organization :</label>
+        <input type="text" id="organization" >
+        <br>
+
+        <label for="Email">Email Address* :</label>
+        <input type="email" id="Email" required>
+        <br>
+        <label for="W_Phone">Work Phone</label>
+        <input type="text" id="W_Phone" >
+        <br>
+        <label for="H_Phone">House Phone :</label>
+        <input type="text" id="H_Phone" >
+        <br>
+        <label for="Cell_Phone">Cell Phone :</label>
+        <input type="text" id="Call_Phone" >
+        <br>
+        <label for="Fax">Fax</label>
+        <input type="text" id="Fax" >
+        <br>
+        <label for="Address1">Address1* :</label>
+        <input type="text" id="Address1" required>
+        <br>
+        <label for="Address2">Address2 :</label>
+        <input type="text" id="Address2">
+        <br>
+        <label for="City">City* :</label>
+        <input type="text" id="City" required>
+        <br>
+        <label for="State_Province">state province :</label>
+        <input type="text" id="State_Province" >
+        <br>
+        <label for="Zip_Postal_Code">Zip Postal Code :</label>
+        <input type="text" id="Zip_Postal_Code" >
+        <br>
+        <label for="Country">Country* :</label>
+        <input type="text" id="Country" required>
+        <br>
+
+
+        
+        
+<br>
+<label >* required :</label>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <div id="Show_res" >
+        <p id="message"></p>
+    </div>
+
+    </div>
+    
+    
+</body>
+</html>
